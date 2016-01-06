@@ -4,6 +4,9 @@
     <title>Sosa</title>
     <link rel="stylesheet" href="style/style.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+
 <style>
 body {
     background: url("fabric.png") repeat;
@@ -16,7 +19,6 @@ header {
     text-align:center;
     padding:5px;
     width: 100%;
-
 }
 
 nav {
@@ -69,10 +71,15 @@ p {
     margin: 30px;
 }
 aside{
-    color:black;
+    background-color: black;
+    color:white;
     width:320px;
+    height: 700px;
     float:right;
     text-align: top;
+    padding: 10px;
+    font-family: 'quicksand';
+
  }
 
 #fiximage{
@@ -83,7 +90,7 @@ aside{
 
 div {
     background-color: black;
-    width: 1275px;
+    width: 100%;
     height:40px;
     color:white;
     text-align:right;
@@ -109,13 +116,13 @@ a:visited {
 </header>
 
 <nav>
-<A HREF="#about">About</A> 
-<A HREF="#education">Education</A> 
-<A HREF="#projects">Projects</A> 
-<A HREF="#work">Experience</A> 
-<A HREF="#orgs">Organizations</A> 
+<A HREF="#about" class="smoothScroll">About</A> 
+<A HREF="#education" class="smoothScroll">Education</A> 
+<A HREF="#projects" class="smoothScroll">Projects</A> 
+<A HREF="#work" class="smoothScroll">Experience</A> 
+<A HREF="#orgs" class="smoothScroll">Organizations</A> 
 </nav>
-<id=fiximage><img src='coolpic.png' width="1275" height="600" />
+<id=fiximage><img src='coolpic.png' width="100%" height="=600" />
 <div>Picture Source: <a href="https://www.belgianwestmonkey.tumblr.com"target="_blank">belgianwestmonkey</a></div>
 
 <section>
@@ -126,6 +133,25 @@ with a metropolitan area of over 13 million inhabitants.
 <br> <br>Standing on the River Thames, London has been a major settlement for two millennia,
 its history going back to its founding by the Romans, who named it Londinium.<br></p>
 </section>
+
+<aside>
+<p><i class="fa fa-quote-left" style="font-size:25px;color:white;padding:5px;"></i>
+May the space between where I am and where I want to be inspire me 
+<i class="fa fa-quote-right" style="font-size:25px;color:white;padding:5px;"></i>
+</p>
+<br>
+<h3>Awards</h3>
+<hr>
+<li>
+    gates
+</li>
+<li>
+    posse
+</li>
+<h3>Hobbies</h3>
+<hr>
+
+</aside>
 
 <section>
 <A NAME="education">
@@ -154,9 +180,7 @@ its history going back to its founding by the Romans, who named it Londinium.<br
 <p>yo yo yoooooooo</p>
 </section>
 
-<aside>
-hello, its me ive been wondering if after all these years you'd like to meet
-</aside>
+
 
 <footer>
     <a href="mailto:easiruwa@gmail.com"<i class="fa fa-envelope" style="font-size:50px;color:black;padding:15px;"></i></a>
@@ -170,6 +194,9 @@ hello, its me ive been wondering if after all these years you'd like to meet
     
     <a href="https://github.com/easiruwa"target="_blank"><i class="fa fa-git" style="font-size:50px;color:black;padding:15px;"></i></a>
 </footer>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="javascript/smoothscroll.js"></script>
 
 </body>
 </html>
