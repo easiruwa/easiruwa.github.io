@@ -39,11 +39,13 @@
     <div class="containermargins">
 <div class="container-fluid bg-1">
   <h3 class="margin"></h3>
-    <div id="pageheaders">About</div>
+    <div class="page-header">
+            <h1>A B O U T</h1>
+        </div>
 
     <div class="row">
         <div class="col-sm-7">
-            <img src="/macbook/macbookpro.png" class="img-responsive"alt="Image">
+            <img src="/macbook/macbookpro.png" id="content" class="img-responsive"alt="Image">
         </div>
         <div class="col-sm-5">
             <br>
@@ -62,10 +64,22 @@
 <!-- Footer -->
 <footer class="container-fluid bg-4">
     <div class="footertext">
-  <p>Copyright © 2016 <a href="index.html">Eseosa Asiruwa</a> <br> Made with <a href="boostrap.com">Bootstrap</a> </p>
+  <p>Copyright © 2016 <a href="index.html">Eseosa Asiruwa</a> <br> Made with <a href="http://getbootstrap.com/">Bootstrap</a> </p>
         </div>
+    
+            
 </footer>
 
+<script>
+    $(document).ready(function(){
+    $('#content').hover(function() {
+        $("#content").addClass('transition');
+    
+    }, function() {
+        $("#content").removeClass('transition');
+    });
+});
+    </script>
 </body>
 </html>
 
