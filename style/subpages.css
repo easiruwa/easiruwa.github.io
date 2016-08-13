@@ -1,0 +1,128 @@
+body {
+  font-size: 20px;
+  line-height: 1.8;
+  color: #f5f6f7;
+  font-family:'AvenirReg';
+
+}
+p {
+  font-size: 16px;
+}
+
+.margin {
+  margin-bottom: 45px;
+}
+.bg-1 {
+  background-color: #ffffff; /* About */
+  color: #000000;
+}
+.bg-2 {
+  background-color: #FFFFFF; /* Education */
+  color: #000000;
+}
+.bg-3 {
+  background-color: #ffffff; /* White */
+  color: #555555;
+}
+.bg-4 {
+  background-color: #D8E2DC; /* Footer */
+  color: #fff;
+}
+
+.container-fluid {
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+.containermargins {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+  font-family:'AvenirReg';
+
+
+}
+.navbar-nav  li a:hover {
+  color: #F4ACB7 !important;
+  text-decoration: line-through;
+}
+
+footer {
+    height: 8px;
+}
+
+footer a{
+    color:#fff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #FFE5D9;
+    text-decoration: line-through;
+}
+
+.footertext{
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+/* WORK PAGE */
+
+.workp1{
+    background: #8E4162;
+    color:#000000;
+    
+}
+
+.workp2{
+    background: #8895B3;
+    color:#000000;
+}
+
+.workp3{
+    background: #BC5D2E;
+    color:#000000;
+}
+
+#worktext{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@font-face{
+    font-family:'AvenirReg';
+    src: url('../fonts/Avenir/AvenirNextLTPro-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family:'AvenirLight';
+    src: url('../fonts/Avenir/AvenirNextLTPro-UltLtCn.ttf') format('truetype');
+}
+
+h1{
+    font-family: 'AvenirLight';
+}
+
+#pageheaders{
+    font-family:'AvenirLight';
+    text-align: center;
+    margin-left: 20px;
+    font-size: 75px;
+    padding-bottom: 50px;
+
+}

@@ -2,7 +2,6 @@
 
 html, body {height: 100%;}
 
-
 body{
     background-color: #fff;
     margin: 0px;
@@ -28,6 +27,9 @@ a {
     padding: 20px;
 }
 
+.menulinks{
+    font-size: 20px;
+}
 
 #canvas{
     width:100%;
@@ -49,7 +51,6 @@ div.canvas-content{
     /*text-align:center;*/
 }
 
-
 header{
     height: 100vh;
     background-size: cover;
@@ -60,8 +61,8 @@ header{
     font-family: 'AvenirLight';
     font-size: 25px;
     letter-spacing: 2px;
+    font-weight: bold;
 }
-
 
 @font-face{
     font-family:'AvenirReg';
@@ -120,14 +121,9 @@ span{
   100%{ width: 100; } 
 } 
 
-
-
 @keyframes blink{
   to{opacity: .0;}
 }
-
-
-
 
 /*@-webkit-keyframes type{
     from { width: 0; }
