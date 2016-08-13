@@ -58,6 +58,9 @@ p {
 
 footer {
     height: 8px;
+    font-size: 12px;
+    font-family:'AvenirReg';
+
 }
 
 footer a{
@@ -115,7 +118,7 @@ h1{
 }
 
 h1{
-    font-family: 'AvenirLight';
+    font-family: 'AvenirReg';
 }
 
 #pageheaders{
@@ -125,4 +128,21 @@ h1{
     font-size: 75px;
     padding-bottom: 50px;
 
+}.transition {
+    -webkit-transform: scale(1.6); 
+    -moz-transform: scale(1.6);
+    -o-transform: scale(1.6);
+    transform: scale(1.6);
 }
+#content {
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+}
+
+#content {
+    width:100%;
+    margin:25px;
+}
+
