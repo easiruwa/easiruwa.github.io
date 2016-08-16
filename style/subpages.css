@@ -58,7 +58,7 @@ p {
 
 footer {
     height: 8px;
-    font-size: 12px;
+    font-size: 5px;
     font-family:'AvenirReg';
 
 }
@@ -74,9 +74,8 @@ footer a:hover{
 }
 
 .footertext{
-    font-size: 12px;
     text-align: left;
-    margin-bottom: 10px;
+    font-size: 12px;
 }
 
 h1{
@@ -103,8 +102,9 @@ h1{
 }
 
 #worktext{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #000000;
 }
 
 @font-face{
@@ -144,5 +144,18 @@ h1{
 #content {
     width:100%;
     margin:25px;
+}
+
+p a{
+    color: #F4ACB7;
+}
+
+p a:hover{
+    text-decoration: line-through;
+    color: #F4ACB7;
+}
+
+ul{
+    list-style: circle outside none;
 }
 
