@@ -1,0 +1,135 @@
+* {margin:0;padding:0;} 
+
+
+body{
+    background-color: #fff;
+    margin: 0px;
+}
+
+.name{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+header{
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    padding-bottom: 50px;
+    border-style: solid;
+    background-color: #f2f2f2;
+    margin-bottom:100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footertext{
+    padding-top: 30px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 15px;
+}
+
+.concertpics{
+    width: 50px;
+    height: 75px;
+}
+
+img {
+    width: 25%;
+    height: auto;
+}
+
+.page-header{
+    padding-bottom: 25px;
+}
+
+.profilebox{
+    border-style: solid;
+    background-color: #ffffff;
+    font-family:'AvenirReg';
+    margin-bottom: 25px;
+}
+
+.profile{
+    height: 100%;
+    background-color: #f2f2f2;
+}
+
+.profilecontent{
+    margin-left: 10%;
+    padding-top: 30px;
+    margin-right: 10%;
+}
+
+.boxcontent{
+    padding: 10px;
+}
+
+.listen{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 100%;
+    height: 0;
+    overflow: hidden;
+}
+
+.listen iframe,
+.listen object,
+.listen embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+.connecticons{
+    font-size: 40px;
+}
+
+a {
+    color: #32CE64;
+}
+
+ul{
+    padding-left: 15px;
+}
+
+.profiletitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.arrowmain{
+    font-size: 50px;
+    color: #32CE64;
+    padding-top: 100px;
+}
+
+@font-face{
+    font-family:'AvenirReg';
+    src: url('../fonts/Avenir/AvenirNextLTPro-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family:'AvenirLight';
+    src: url('../fonts/Avenir/AvenirNextLTPro-UltLtCn.ttf') format('truetype');
+}
