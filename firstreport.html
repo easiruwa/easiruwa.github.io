@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>First Report</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <style> 
+        
+        
+body {
+    height: 100%;
+}
+
+h1 {
+    color: #000;
+    text-align: center;
+}
+        
+p {
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+}
+        
+#josbank {
+    width: 20%;
+    margin-left: 25px;
+    transition: all 0.5 ease;
+}
+        
+        
+#menswarehouse {
+    width: 20%;
+    margin-right: 10%;
+    float: right;
+}
+        
+.bg {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: .25s;
+  pointer-events: none;
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  -ms-transition: background 1s;
+  -o-transition: background 1s;
+   transition: background 1s;   
+}
+        
+.dia {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#menswarehouse:hover ~ .bg {
+    background: #fff;
+}        
+        
+#josbank:hover ~ .bg {
+    background: #000000;
+}
+        
+#josbank:hover ~ p {
+    color: #fff;
+}
+        
+#josbank:hover ~ .pzimmer {
+    color: #fff;
+}
+        
+#zimmer {
+    padding-right: 20px;  
+}
+
+#sandler:hover ~ .sandquote {
+    left: 0px: !important;
+            
+}
+        
+#zimmer:hover ~ .pzimmer {
+    padding-top: 200px;
+            
+}
+        
+#wild:hover ~ .pwild {
+    padding-top: 300px;       
+}
+
+.sandquote {
+    position:relative;
+    left:-520px;      
+        }
+        
+#slider{
+    /*background:blue; */
+    height:0px;
+    width:0px;
+    position:relative;
+    left:-1020px;
+}
+.open{
+    top: 10% !important;
+    left: 10% !important;
+    /*left:0px !important; */
+}
+        
+#sliderd{
+    /*background:blue; */
+    height:0px;
+    width:0px;
+    position:relative;
+    left:-1500px;
+}
+.opend{
+    top: 10% !important;
+    left: 10% !important;
+    /*left:0px !important; */
+    
+}
+.transition{
+    -webkit-transition: left 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+    -moz-transition: left 0.3s ease-out;  /* Firefox 4-15 */
+    -o-transition: left 0.3s ease-out;  /* Opera 10.50–12.00 */
+    transition: left 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+}
+        
+#credits{
+    text-align: right;  
+    }
+             
+    </style>
+    <script>
+    $(document).ready(function(){
+        $('#zimmer').hover(function(){
+            $('#slider').toggleClass('open');
+            })
+    })
+    
+    $(document).ready(function(){
+        $('#wild').hover(function(){
+            $('#sliderd').toggleClass('opend');
+            })
+    })
+        </script>
+         </head>
+    <body>
+        <br>
+        
+        <div id="credits">
+        <p style="font-size:11px;">Coding: Eseosa Asiruwa<br>
+           Digital Design: Emma Fighera </p>
+        </div>
+        
+        <div id="menswarehouse"> <p><img src="men's%20warehouse%20logo.jpg" alt="Mens Logo" style="width:304px;height:228px;"></p>
+        </div>
+                
+        <div id="josbank"><p><img  src="Jos%20a%20bank%20logo.jpg" alt="JosBank Logo" style="width:304px;height:228px;float:left;padding-right:20px;padding-bottom:10px;"></p></div>
+        
+        <div class="bg"></div>
+        
+        <p>Andrew Stiles<p>
+        
+        <p> 
+        In June, 2013, George Zimmer lost control of the men’s clothing empire that he had spent his life building: Men’s Wearhouse. After battling his board of directors to take the public company private again, his handpicked CEO and lifelong friend, Doug Ewert, handed him the pink slip. This conflict marked the first of Men’s Wearhouse’s mistakes in a succession of ill-fated decisions that ended with one of the worst corporate busts in retail history.
+        </p>
+        <br><br>
+        
+        
+        <div id ="zimmer"><img src="george%20zimmer.jpg" alt="Mens Logo" style="width:304px;height:228px;float:left;padding-right:20px;"></div>
+        
+        <div id="slider" class="transition"><img src="text%20_i%20have%20expressed_.jpg"style="width:600px;height:200px;"></div>
+            
+        
+        <div class="pzimmer">
+        
+        <p>Just a few months after Zimmer’s departure, Men’s Wearhouse received an unsolicited acquisition offer from its competitor, Joseph A. Bank Clothiers. The $2.3 billion offer was unusual, coming from a company just half the size of Men’s Wearhouse (MW). However, given the recent turmoil within MW’s management, and its poor sales performance, Joseph Bank saw an opportunity to capture the giant. </p>
+        
+
+        <p>MW rejected the offer, and countered with an acquisition offer to buy Joseph Bank for $1.5 billion. This offer was a rare example of a ‘Pac-Man Defense’, a transaction in which a company makes a defensive acquisition offer in response to its competitor’s initial offer. The move was a gamble. Pac-Man Defenses have a contentious relationship with executive management’s fiduciary responsibility; if a company’s management spends millions of company dollars in legal and financial advisory fees on a counter-offer only to protect their jobs, then they have violated their fiduciary responsibility and are liable to the litigious wrath of their shareholders.</p>
+
+        <p>Joseph Bank (JAB) responded to MW’s offer by issuing a ‘Poison Pill’ – a shareholder’s rights program meant to prevent a hostile takeover of their publicly traded stock. MW also issued a Poison Pill. </p>
+
+        <p>Joseph Bank then made an acquisition offer to men’s clothing giant Eddie Bauer for just under $1 billion. Analysts theorized that the offer was an attempt to goad MW to up its price for JAB. One thing was certain: the MW-JAB acquisition was quickly devolving. </p><br>
+
+        <div id="sandler">
+        <p><img src="ricky.jpg" alt="Mens Logo" style="width:354px;height:450px;float:left;padding-bottom:10px;padding-right:20px;"></p></div>
+        
+        <p>At this time, Activist Investor Eminence Capital decided to jump into the fray, buying a 10% stake in Men’s Wearhouse, adding onto its existing 5% stake in Joseph Bank.</p>
+        
+        
+        <p><center><img src="text%20_eminence%20captial_.jpg"alt="Mens Logo" style="width:700px;height:300px"></center></p>
+
+        <p>Eminence wanted a deal to profit from its shares, and was willing to do anything to make it happen. The company’s founder, Ricky Sandler, is known for his preference in hiring employees with “the desire to win above the desire to be right.” Following such ethics, Eminence launched proxy fights with both JAB and MW’s directing boards, threatening to call a vote on immediate dismissals of board members. Sandler's goal was to pressure each company's executives to strike a deal.</p>
+        
+        <div id="wild">
+        <p><img src="robert%20wildrick.jpg" alt="Mens Logo" style="width:304px;height:400px;float:left;padding-right:10px;"></p></div>
+            
+        <div id="sliderd" class="transition"><img src="text%20_feb%202_.jpg"style="width:700px;height:300px;"></div>
+            
+        <div class= "pwild">
+
+        <p>The tactic was effective, and MW made two more consecutive offers to buy JAB, the final accepted offer valuing JAB at $1.8 billion, with a 10.1X Enterprise Value to Earnings (EBITDA) multiple. The transaction was paid to JAB in cash, structured primarily with debt and also some of MW’s balance sheet cash.</p>
+        
+        <p>Although the share price of Joseph Bank jumped at the close of the deal, things quickly unraveled over the next year. Prior to the deal, many executives in MW were reluctant to buy JAB – when George Zimmer led MW, he noted that JAB had unsustainably propped up its sales by offering absurd discounts to its customers, such as its famous, “buy 1 get 3 suits free” offer.</p>
+
+        <p>Now that MW owned JAB and had to pay interest from the acquisition debt, MW needed to squeeze as much cash out of its child company as possible. MW ended JAB’s promotion campaign, which caused the company’s sales to hemorrhage. By the second half of its 2015 fiscal year, JAB’s sales had fallen by over 30% year-over-year, and its stock had crashed from a peak of $65/share to roughly $10/share.</p>
+
+        <p>Then came the litigation. A class-action lawsuit has recently emerged against MW, claiming that the Pac-Man Defense was an irresponsible use of company money to allegedly protect management's jobs and appease Eminence Capital. The case has not yet concluded.</p>
+        
+        <center><div class="dia"><img src="diagram.jpg"alt="Mens Logo" style="width:50%;"></div></center>
+
+        <p>While the deal seemed well fit for each clothing company at the time of the transaction, the product of the MW-JAB acquisition was a legal and financial disaster that damaged both companies, and ended up forming a retail holding company called Tailored Brands. The acquisition was one of the most exciting investment banking transactions to occur in the 21st century, resulting in numerous collegiate case studies and law firm reports analyzing the event. Future companies thinking about a Pac-Man Defense will likely think twice after this mess.</p>
+            </div>
+            
+            </div>
+
+    </body>
+</html>
