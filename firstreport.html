@@ -28,14 +28,14 @@ p {
     transition: color 1s;
 }
         
-#josbank {
+.josbank {
     width: 20%;
     margin-left: 25px;
     transition: all 0.5 ease;
 }
         
         
-#menswarehouse {
+.menswarehouse {
     width: 20%;
     margin-right: 10%;
     float: right;
@@ -62,6 +62,7 @@ p {
     padding-bottom: 30px;
 }
 
+/*
 #menswarehouse:hover ~ .bg {
     background: #fff;
 }        
@@ -77,6 +78,7 @@ p {
 #josbank:hover ~ .pzimmer {
     color: #fff;
 }
+*/
         
 #zimmer {
     padding-right: 20px;  
@@ -150,6 +152,25 @@ p {
         $('#wild').hover(function(){
             $('#sliderd').toggleClass('opend');
             })
+        
+    $('.josbank').mouseenter(function () {
+        $('body').css('background', 'black');
+        $('body').css('color','white');
+    });
+    $('.josbank').mouseleave(function () {
+        $('body').css('background','black');
+        $('body').css('color','white');
+    });
+        
+    $('.menswarehouse').mouseenter(function () {
+        $('body').css('background', 'white');
+        $('body').css('color','black');
+    });
+    $('.menswarehouse').mouseleave(function () {
+        $('body').css('background','white');
+        $('body').css('color','black');
+    });
+        
     })
         </script>
          </head>
@@ -161,10 +182,10 @@ p {
            Digital Design: Emma Fighera </p>
         </div>
         
-        <div id="menswarehouse"> <p><img src="FirstReport/men's%20warehouse%20logo.jpg" alt="Mens Logo" style="width:304px;height:228px;"></p>
+        <div class="menswarehouse"> <p><img src="men's%20warehouse%20logo.jpg" alt="Mens Logo" style="width:304px;height:228px;"></p>
         </div>
                 
-        <div id="josbank"><p><img  src="FirstReport/Jos%20a%20bank%20logo.jpg" alt="JosBank Logo" style="width:304px;height:228px;float:left;padding-right:20px;padding-bottom:10px;"></p></div>
+        <div class="josbank"><p><img  src="Jos%20a%20bank%20logo.jpg" alt="JosBank Logo" style="width:304px;height:228px;float:left;padding-right:20px;padding-bottom:10px;"></p></div>
         
         <div class="bg"></div>
         
@@ -176,9 +197,9 @@ p {
         <br><br>
         
         
-        <div id ="zimmer"><img src="FirstReport/george%20zimmer.jpg" alt="Mens Logo" style="width:304px;height:228px;float:left;padding-right:20px;"></div>
+        <div id ="zimmer"><img src="zimmerleft.png" alt="Mens Logo" style="width:304px;height:228px;float:right;padding-left:20px;padding-right:20px;"></div>
         
-        <div id="slider" class="transition"><img src="FirstReport/text%20_i%20have%20expressed_.jpg"style="width:600px;height:200px;"></div>
+        <div id="slider" class="transition"><img src="text%20_i%20have%20expressed_.jpg"style="width:600px;height:200px;"></div>
             
         
         <div class="pzimmer">
@@ -191,21 +212,26 @@ p {
         <p>Joseph Bank (JAB) responded to MW’s offer by issuing a ‘Poison Pill’ – a shareholder’s rights program meant to prevent a hostile takeover of their publicly traded stock. MW also issued a Poison Pill. </p>
 
         <p>Joseph Bank then made an acquisition offer to men’s clothing giant Eddie Bauer for just under $1 billion. Analysts theorized that the offer was an attempt to goad MW to up its price for JAB. One thing was certain: the MW-JAB acquisition was quickly devolving. </p><br>
+            
+               <p>At this time, Activist Investor Eminence Capital decided to jump into the fray, buying a 10% stake in Men’s Wearhouse, adding onto its existing 5% stake in Joseph Bank.</p>
 
         <div id="sandler">
-        <p><img src="FirstReport/ricky.jpg" alt="Mens Logo" style="width:354px;height:450px;float:left;padding-bottom:10px;padding-right:20px;"></p></div>
+        <p><img src="ricky.jpg" alt="Mens Logo" style="width:304px;height:350px;float:left;padding-bottom:10px;padding-right:20px;"></p></div>
         
-        <p>At this time, Activist Investor Eminence Capital decided to jump into the fray, buying a 10% stake in Men’s Wearhouse, adding onto its existing 5% stake in Joseph Bank.</p>
+     
         
+        <p><center><img src="text%20_eminence%20captial_.jpg"alt="Mens Logo" style="width:700px;height:300px"></center></p>
         
-        <p><center><img src="FirstReport/text%20_eminence%20captial_.jpg"alt="Mens Logo" style="width:700px;height:300px"></center></p>
 
         <p>Eminence wanted a deal to profit from its shares, and was willing to do anything to make it happen. The company’s founder, Ricky Sandler, is known for his preference in hiring employees with “the desire to win above the desire to be right.” Following such ethics, Eminence launched proxy fights with both JAB and MW’s directing boards, threatening to call a vote on immediate dismissals of board members. Sandler's goal was to pressure each company's executives to strike a deal.</p>
-        
-        <div id="wild">
-        <p><img src="FirstReport/robert%20wildrick.jpg" alt="Mens Logo" style="width:304px;height:400px;float:left;padding-right:10px;"></p></div>
             
-        <div id="sliderd" class="transition"><img src="FirstReport/text%20_feb%202_.jpg"style="width:700px;height:300px;"></div>
+         
+            
+            
+        <div id="wild">
+        <p><img src="wildrickleft.png" alt="Mens Logo" style="width:304px;height:400px;float:right;padding-left:10px;"></p></div>
+            
+        <div id="sliderd" class="transition"><img src="text%20_feb%202_.jpg"style="width:700px;height:300px;"></div>
             
         <div class= "pwild">
 
@@ -217,7 +243,7 @@ p {
 
         <p>Then came the litigation. A class-action lawsuit has recently emerged against MW, claiming that the Pac-Man Defense was an irresponsible use of company money to allegedly protect management's jobs and appease Eminence Capital. The case has not yet concluded.</p>
         
-        <center><div class="dia"><img src="FirstReport/diagram.jpg"alt="Mens Logo" style="width:50%;"></div></center>
+        <center><div class="dia"><img src="diagram.jpg"alt="Mens Logo" style="width:50%;"></div></center>
 
         <p>While the deal seemed well fit for each clothing company at the time of the transaction, the product of the MW-JAB acquisition was a legal and financial disaster that damaged both companies, and ended up forming a retail holding company called Tailored Brands. The acquisition was one of the most exciting investment banking transactions to occur in the 21st century, resulting in numerous collegiate case studies and law firm reports analyzing the event. Future companies thinking about a Pac-Man Defense will likely think twice after this mess.</p>
             </div>
