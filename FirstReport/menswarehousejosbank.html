@@ -10,11 +10,19 @@
         
 body {
     height: 100%;
-    -webkit-transition: color 0.1s;
-    -moz-transition: color 0.1s;
-    -ms-transition: color 0.1s;
-    -o-transition: color 0.1s;
-    transition: color 0.1s;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;   
+/*
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  -ms-transition: background 0.3s;
+  -o-transition: background 0.3s;
+   transition: background 0.3s;   
+*/
+
 }
 
 h1 {
@@ -26,11 +34,13 @@ p {
     font-size: 20px;
     padding-left: 30px;
     padding-right: 30px;
-    -webkit-transition: color 1s;
-    -moz-transition: color 1s;
-    -ms-transition: color 1s;
-    -o-transition: color 1s;
-    transition: color 1s;
+/*
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  -ms-transition: background 1s;
+  -o-transition: background 1s;
+   transition: background 1s;   
+*/
 }
         
 .josbank {
@@ -46,6 +56,7 @@ p {
     float: right;
 }
         
+/*
 .bg {
   position: fixed;
   z-index: -1;
@@ -55,12 +66,13 @@ p {
   left: 0;
   transition: .25s;
   pointer-events: none;
-  -webkit-transition: background 1s;
-  -moz-transition: background 1s;
-  -ms-transition: background 1s;
-  -o-transition: background 1s;
-   transition: background 1s;   
+  -webkit-transition: background 0.5s;
+  -moz-transition: background 0.5s;
+  -ms-transition: background 0.5s;
+  -o-transition: background 0.5s;
+   transition: background 0.5s;   
 }
+*/
         
 .dia {
     padding-top: 30px;
@@ -146,7 +158,9 @@ p {
     }
              
     </style>
+        
     <script>
+  
     $(document).ready(function(){
         $('#zimmer').hover(function(){
             $('#slider').toggleClass('open');
@@ -182,9 +196,11 @@ p {
     <body>
         <br>
         
+        <div class="container">
+        
         <div id="credits">
-        <p style="font-size:11px;">Coding: Eseosa Asiruwa<br>
-           Digital Design: Emma Fighera </p>
+        <p style="font-size:11px;">Back End Design: Eseosa Asiruwa<br>
+           Front End Design: Emma Fighera </p>
         </div>
         
         <div class="menswarehouse"> <p><img src="men's%20warehouse%20logo.jpg" alt="Mens Logo" style="width:304px;height:228px;"></p>
@@ -199,7 +215,6 @@ p {
         <p> 
         In June, 2013, George Zimmer lost control of the men’s clothing empire that he had spent his life building: Men’s Wearhouse. After battling his board of directors to take the public company private again, his handpicked CEO and lifelong friend, Doug Ewert, handed him the pink slip. This conflict marked the first of Men’s Wearhouse’s mistakes in a succession of ill-fated decisions that ended with one of the worst corporate busts in retail history.
         </p>
-        <br><br>
         
         
         <div id ="zimmer"><img src="zimmerleft.png" alt="Mens Logo" style="width:404px;height:328px;float:right;padding-left:20px;padding-right:20px;"></div>
@@ -216,22 +231,17 @@ p {
 
         <p>Joseph Bank (JAB) responded to MW’s offer by issuing a ‘Poison Pill’ – a shareholder’s rights program meant to prevent a hostile takeover of their publicly traded stock. MW also issued a Poison Pill. </p>
 
-        <p>Joseph Bank then made an acquisition offer to men’s clothing giant Eddie Bauer for just under $1 billion. Analysts theorized that the offer was an attempt to goad MW to up its price for JAB. One thing was certain: the MW-JAB acquisition was quickly devolving. </p><br>
+        <p>Joseph Bank then made an acquisition offer to men’s clothing giant Eddie Bauer for just under $1 billion. Analysts theorized that the offer was an attempt to goad MW to up its price for JAB. One thing was certain: the MW-JAB acquisition was quickly devolving. </p>
             
-               <p>At this time, Activist Investor Eminence Capital decided to jump into the fray, buying a 10% stake in Men’s Wearhouse, adding onto its existing 5% stake in Joseph Bank.</p>
+        <p>At this time, Activist Investor Eminence Capital decided to jump into the fray, buying a 10% stake in Men’s Wearhouse, adding onto its existing 5% stake in Joseph Bank.</p>
 
         <div id="sandler">
         <p><img src="ricky.jpg" alt="Mens Logo" style="width:304px;height:350px;float:left;padding-bottom:10px;padding-right:20px;"></p></div>
-        
-     
         
         <p><center><img src="text%20_eminence%20captial_.jpg"alt="Mens Logo" style="width:700px;height:300px"></center></p>
         
 
         <p>Eminence wanted a deal to profit from its shares, and was willing to do anything to make it happen. The company’s founder, Ricky Sandler, is known for his preference in hiring employees with “the desire to win above the desire to be right.” Following such ethics, Eminence launched proxy fights with both JAB and MW’s directing boards, threatening to call a vote on immediate dismissals of board members. Sandler's goal was to pressure each company's executives to strike a deal.</p>
-            
-         
-            
             
         <div id="wild">
         <p><img src="wildrickleft.png" alt="Mens Logo" style="width:304px;height:400px;float:right;padding-left:10px;"></p></div>
@@ -254,6 +264,9 @@ p {
             </div>
             
             </div>
+        </div>
+    
+
 
     </body>
 </html>
